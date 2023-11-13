@@ -86,7 +86,7 @@ function mainGame(){
     let computerScore=0;
     alert("Welcome to Rock, Paper, Scissors! Click OK to continue.")
     whileTrue=true;
-    while (playerScore<5 && computerScore<5){
+    while (playerScore<5 && computerScore<5) {
         let player = playerSelection(playerScore, computerScore);
         let computer = getComputerChoice();
         let gameResult=rounds(player, computer);
