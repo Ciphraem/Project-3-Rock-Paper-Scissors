@@ -11,8 +11,28 @@ h1 {
     padding:0;
 }
 
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#scores p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
+    margin: 10px 20px;
     padding: 0;
 }

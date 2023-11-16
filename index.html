@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Rock-Paper-Scissors</h1>
-    <p>Everything for now is in the browser console (Ctrl+Shift+i).</p>
+    <h1>Rock-Paper-Scissors with UI</h1>
+    <div id="choices">
+        <button type="button" id="rock">Rock</button>
+        <button type="button" id="paper">Paper</button>
+        <button type="button" id="scissors">Scissors</button>
+    </div>
+    <p id="description">The game starts.</p>
+    <div id="scores">
+        <p id="playerDisp">0</p>
+        <p id="computerDisp">0</p>
+    </div>
 </body>
 </html>
